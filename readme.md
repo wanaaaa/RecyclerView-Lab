@@ -77,3 +77,6 @@ How would you change your classes to allow for more than one type of view in one
 
 #### Deliverable
 A pull request from forked GitHub repo that contains your implementation of the requirements.
+
+### Additional Resource:
+[Android: RecyclerView](https://developer.android.com/training/material/lists-cards.html)
