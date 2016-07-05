@@ -72,6 +72,8 @@ Starter code has been provided to help you along with the initial set up.
 - Provide the other custom adapter this list to use.
 - Set your custom adapter on the `RecyclerView`.
 
+---
+
 **Bonus:**
 How would you change your classes to allow for more than one type of view in one RecyclerView adapter?
 
