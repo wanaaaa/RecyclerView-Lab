@@ -34,7 +34,11 @@ Starter code has been provided to help you along with the initial set up.
 ---
 
 ##### Custom View Layouts
-- Create two custom `XML` layouts that replicate these layouts. **Insert Layout Screenshot**
+- Create two custom `XML` layouts that replicate these layouts.
+
+<img src="screenshots/screen1.png" height="60px" width="320px"/>
+
+<img src="screenshots/screen2.png" height="60px" width="320px"/>
 
 ##### Custom RecyclerView ViewHolders
 - Create two custom `RecyclerView ViewHolders`.
