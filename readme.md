@@ -27,8 +27,8 @@ Starter code has been provided to help you along with the initial set up.
 - You have been provided two Activities a `MainActivity` and a `SecondaryActivity`
 
 ##### RecyclerView
-- Create your `RecyclerView` inside the **activity_main.xml** and **activity_secondary.xml**
-- Get a reference to your `XML` created `RecyclerView` inside the `onCreate()` method in `Java` in both activities.
+- You have been provided a `RecyclerView` inside the **activity_main.xml** and **activity_secondary.xml**
+- Get a reference to the `XML` created `RecyclerView` inside the `onCreate()` method in `Java` in both activities.
 - Set up the layout manager for the `RecyclerView` in both activities.
 
 ---
