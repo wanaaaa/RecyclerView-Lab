@@ -4,6 +4,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -30,6 +31,15 @@ public class AdapterOne extends RecyclerView.Adapter<ViewHolderOne> {
         holder.mTextViewTitle.setText(mFirstObject.get(position).getmTitle());
         holder.mTextViewDescription.setText("This is setDescription");
         holder.mTextViewColor.setText("setColor");
+
+        View.OnClickListener onClickListener = new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(view.getContext(), "I am clicked", Toast.LENGTH_SHORT).show();
+            }
+        };
+
+        holder.mButton1.setOnClickListener(onClickListener);
     }
 
     @Override
