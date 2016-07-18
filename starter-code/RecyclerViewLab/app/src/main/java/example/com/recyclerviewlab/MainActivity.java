@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
         mRecylerView = (RecyclerView) findViewById(R.id.recyclerview_main);
 
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this,
+                LinearLayoutManager.VERTICAL, false);
         mRecylerView.setLayoutManager(linearLayoutManager);
 
         List<FirstObject> firstListObjects = new ArrayList<>();
